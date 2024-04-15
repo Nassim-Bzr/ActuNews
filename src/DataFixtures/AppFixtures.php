@@ -11,7 +11,7 @@ use Faker\Factory;
 use Symfony\Component\PasswordHasher\Hasher\UserPasswordHasherInterface;
 use Symfony\Component\String\Slugger\SluggerInterface;
 
-class AppFixtures extends Fixture
+class   AppFixtures extends Fixture
 {
 
     public function __construct(private readonly SluggerInterface            $slugger,
